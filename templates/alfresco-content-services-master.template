@@ -373,9 +373,11 @@
             "Type": "String"
         },
         "RDSPassword": {
-            "Description": "Password for the Amazon RDS database. Minimum 8 characters.",
+            "Description": "Password for the Amazon RDS database.",
             "NoEcho": "True",
-            "Type": "String"
+            "Type": "String",
+            "MinLength": 8,
+            "ConstraintDescription":"Minimum 8 characters."
         },
         "RDSUsername": {
             "Default": "alfresco",

@@ -18,3 +18,22 @@ Deployment Guide: https://s3.amazonaws.com/quickstart-reference/alfresco/content
 
 
 *Demo:* Watch a 6 minute demo here https://youtu.be/zEmoI9WwIXo
+
+## How to contribute
+
+To avoid any problem on *master* branch, we are implementing git-flow. To contribute, please follow this:
+
+  1. Fork this repository
+  2. Create a branch from *develop*
+  3. Make your changes
+  4. Test your changes
+  5. Make a pull request to *develop* branch and please add comments for the changes made
+
+## How changes go live
+
+Below is the workflow of changes promoted to go live for AWS ACS QuickStarts:
+
+  1. Please follow the [How to contribute](#how-to-contribute) section above
+  2. Once AWS are satisfied with changes then it gets merged into *develop* branch
+  3. A new Pull Request should be created for merging changes into *master* from *develop* branch
+  4. This git repository of *master* branch then gets copied over by AWS team to their private S3 bucket owned and managed by them which serves as source code for AWS ACS QuickStarts.
