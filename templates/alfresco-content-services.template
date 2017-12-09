@@ -323,7 +323,7 @@
             "NoEcho": "True",
             "Type": "String",
             "MinLength": 8,
-            "ConstraintDescription":"Minimum 8 characters."
+            "ConstraintDescription": "Minimum 8 characters."
         },
         "RDSUsername": {
             "Default": "alfresco",
@@ -371,49 +371,49 @@
     "Mappings": {
         "AWSAMIRegionMap": {
             "AMI": {
-                "ALFRESCOCS52": "Alfresco Content Services 5.2.0 AWS Marketplace AMI 0.0.41 - 1487815652-6167cdca-2075-4b86-ab68-98bb01eb01d0-ami-2067b636.4"
+                "ALFRESCOCS52": "Alfresco Content Services 5.2.1 AWS Marketplace AMI  - 1508922595-6167cdca-2075-4b86-ab68-98bb01eb01d0-ami-ffb51185.4"
             },
             "ap-northeast-1": {
-                "ALFRESCOCS52": "ami-a99bcece"
+                "ALFRESCOCS52": "ami-7173ca17"
             },
             "ap-northeast-2": {
-                "ALFRESCOCS52": "ami-f920f097"
+                "ALFRESCOCS52": "ami-5b339435"
             },
             "ap-south-1": {
-                "ALFRESCOCS52": "ami-981d6df7"
+                "ALFRESCOCS52": "ami-7591df1a"
             },
             "ap-southeast-1": {
-                "ALFRESCOCS52": "ami-9208b9f1"
+                "ALFRESCOCS52": "ami-c75407a4"
             },
             "ap-southeast-2": {
-                "ALFRESCOCS52": "ami-82cecde1"
+                "ALFRESCOCS52": "ami-8d8e7bef"
             },
             "ca-central-1": {
-                "ALFRESCOCS52": "ami-5c70cd38"
+                "ALFRESCOCS52": "ami-eb5ae18f"
             },
             "eu-central-1": {
-                "ALFRESCOCS52": "ami-7de53012"
+                "ALFRESCOCS52": "ami-7ef57911"
             },
             "eu-west-1": {
-                "ALFRESCOCS52": "ami-1d68467b"
+                "ALFRESCOCS52": "ami-1db60564"
             },
             "eu-west-2": {
-                "ALFRESCOCS52": "ami-74c1d410"
+                "ALFRESCOCS52": "ami-f25d4396"
             },
             "sa-east-1": {
-                "ALFRESCOCS52": "ami-5587e139"
+                "ALFRESCOCS52": "ami-73480c1f"
             },
             "us-east-1": {
-                "ALFRESCOCS52": "ami-ac9d43ba"
+                "ALFRESCOCS52": "ami-60da481a"
             },
             "us-east-2": {
-                "ALFRESCOCS52": "ami-c4bb9ea1"
+                "ALFRESCOCS52": "ami-a498b6c1"
             },
             "us-west-1": {
-                "ALFRESCOCS52": "ami-3c97c95c"
+                "ALFRESCOCS52": "ami-cdfac1ad"
             },
             "us-west-2": {
-                "ALFRESCOCS52": "ami-16f97b76"
+                "ALFRESCOCS52": "ami-21f52b59"
             }
         },
         "S3EndPoints": {
@@ -884,8 +884,7 @@
                 "DBSubnetGroupName": {
                     "Ref": "RDSDBSubnetGroup"
                 }
-            },
-            "DeletionPolicy": "Snapshot"
+            }
         },
         "RDSDBInstance1": {
             "Type": "AWS::RDS::DBInstance",
