@@ -81,7 +81,7 @@
     },
     {
         "ParameterKey": "RDSInstanceType",
-        "ParameterValue": "db.r3.large"
+        "ParameterValue": "db.r4.xlarge"
     },
     {
         "ParameterKey": "RDSPassword",
