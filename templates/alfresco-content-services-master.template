@@ -365,10 +365,16 @@
                 "db.r3.xlarge",
                 "db.r3.2xlarge",
                 "db.r3.4xlarge",
-                "db.r3.8xlarge"
+                "db.r3.8xlarge",
+                "db.r4.large",
+                "db.r4.xlarge",
+                "db.r4.2xlarge",
+                "db.r4.4xlarge",
+                "db.r4.8xlarge",
+                "db.r4.16xlarge"
             ],
             "ConstraintDescription": "Must contain valid RDS instance type",
-            "Default": "db.r3.large",
+            "Default": "db.r4.xlarge",
             "Description": "EC2 instance type for the Amazon RDS DB instances",
             "Type": "String"
         },
