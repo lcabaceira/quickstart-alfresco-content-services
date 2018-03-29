@@ -14,7 +14,7 @@ The Quick Start architecture includes the following components:
 The Alfresco Content Services deployment is automated by nested AWS CloudFormation templates. The templates call custom Chef cookbooks to automate installation and configuration tasks for Alfresco Content Services. The Quick Start gives you a option to either build a new AWS environment for Alfresco Content Services or use your existing AWS environment.
 
 
-Deployment Guide: https://s3.amazonaws.com/quickstart-reference/alfresco/content/services/latest/doc/alfresco-content-services-on-the-aws-cloud.pdf
+Deployment Guide: https://fwd.aws/yJED4
 
 
 *Demo:* Watch a 6 minute demo here https://youtu.be/zEmoI9WwIXo
