@@ -1019,7 +1019,7 @@
                         "files": {
                             "/etc/chef/chef-client.json": {
                                 "source": {
-                                    "Fn::Sub": "https://${QSS3BucketName}.s3.amazonaws.com/${QSS3KeyPrefix}scripts/share-52.json"
+                                    "Fn::Sub": "https://github.com/lcabaceira/quickstart-alfresco-content-services/blob/master/scripts/share-52.json"
                                 },
                                 "mode": "000700",
                                 "owner": "root",
@@ -1383,7 +1383,7 @@
                         "files": {
                             "/etc/chef/chef-client.json": {
                                 "source": {
-                                    "Fn::Sub": "https://${QSS3BucketName}.s3.amazonaws.com/${QSS3KeyPrefix}scripts/solr-52.json"
+                                    "Fn::Sub": "https://github.com/lcabaceira/quickstart-alfresco-content-services/blob/master/scripts/solr-52.json"
                                 },
                                 "mode": "000700",
                                 "owner": "root",
