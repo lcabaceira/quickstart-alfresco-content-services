@@ -404,7 +404,7 @@
                 "ALFRESCOCS52": "ami-1db60564"
             },
             "eu-west-2": {
-                "ALFRESCOCS52": "ami-f25d4396"
+                "ALFRESCOCS52": "ami-030d9fccfe1d34780"
             },
             "sa-east-1": {
                 "ALFRESCOCS52": "ami-73480c1f"
